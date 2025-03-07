@@ -12,11 +12,14 @@ public class SomaDeDoisValores {
         System.out.println("Digite o segundo número: ");
         int numero2 = scanner.nextInt();
         scanner.close();
+        int resultado;
 
-        if (numero1 == numero2){
-            System.out.println("A soma dos numero é: " + (numero1 + numero2));
-        }else {
-            System.out.println("A subtração dos numero é: " + (numero1 - numero2));
+        if (numero1 == numero2) {
+            resultado = numero1 + numero2;
+            System.out.println("A soma dos números é: " + resultado);
+        } else {
+            resultado = numero1 * numero2;
+            System.out.println("A múltiplicação dos números é: " + resultado);
         }
     }
 }
