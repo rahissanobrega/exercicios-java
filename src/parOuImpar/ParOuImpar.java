@@ -11,6 +11,8 @@ public class ParOuImpar {
         int numero = scanner.nextInt();
         scanner.close();
 
+        System.out.println("----------------------");
+
         if (numero % 2 == 0 && numero >= 0) {
             System.out.println("O numero " + numero + " é par e positivo");
         } else if (numero % 2 != 0 && numero > 0) {
