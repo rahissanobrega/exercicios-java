@@ -10,10 +10,10 @@ public class SalarioMinimo {
         double salarioUsuario = scanner.nextDouble();
         scanner.close();
 
-        double salarioMinimo = 1.525;
+        double salarioMinimo = 1525;
         double quantidadeSalariosMinimos = salarioUsuario / salarioMinimo;
 
-        System.out.printf("Você recebe %.1f salários minimos.", quantidadeSalariosMinimos);
+        System.out.println("Você recebe: " + quantidadeSalariosMinimos + " salários minimos." );
 
     }
 }
