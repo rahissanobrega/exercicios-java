@@ -16,7 +16,7 @@ public class MaiorIdade {
         }else {
             System.out.printf("%s, você é menor de idade, portanto não pode comprar bebidas alcoólicas", nomePessoa);
         }
-
+        scanner.close();
 
     }
 }
