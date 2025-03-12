@@ -19,7 +19,8 @@ public class MediaDaTurma {
             if (nota <= 10 && nota >= 0) {
                 total += nota;
                 quantidadeDeNotas++;
-            } else {
+            }
+            else if (nota != -1) {
                 System.out.println("informe uma nota válida!!!!");
             }
         }
